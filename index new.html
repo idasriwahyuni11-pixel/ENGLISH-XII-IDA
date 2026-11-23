@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ASAS Ganjil – Bahasa Inggris</title>
+<style>
+:root{--bg:#eef2ff;--card:#fff;--tx:#1e1b4b;--mu:#64748b;--pr:#6d28d9;--pr2:#0ea5e9;--ok:#16a34a;--db:#f59e0b;--no:#cbd5e1;--bad:#dc2626;--bd:#e2e8f0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f172a;--card:#1e293b;--tx:#e2e8f0;--mu:#94a3b8;--no:#475569;--bd:#334155}}
+*{box-sizing:border-box}html{height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;user-select:none}
+.hd{background:linear-gradient(120deg,var(--pr),var(--pr2));color:#fff;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hd b{font-size:17px}.tm{background:rgba(0,0,0,.28);padding:6px 14px;border-radius:99px;font-weight:700;font-variant-numeric:tabular-nums}
+.tm.lo{background:var(--bad);animation:p 1s infinite}@keyframes p{50%{opacity:.6}}
+.w{max-width:960px;margin:0 auto;padding:16px}
+.c{background:var(--card);border-radius:16px;padding:20px;box-shadow:0 4px 18px rgba(80,60,160,.12);margin-bottom:14px}
+h1,h2{margin:0 0 6px}label{display:block;font-weight:600;margin:12px 0 4px;font-size:14px}
+input{width:100%;padding:11px 12px;border:2px solid var(--bd);border-radius:10px;font-size:16px;background:var(--card);color:var(--tx)}
+input:focus{outline:none;border-color:var(--pr)}
+.btn{border:0;border-radius:10px;padding:11px 18px;font-size:15px;font-weight:700;cursor:pointer;color:#fff;background:var(--pr)}
+.btn.g{background:var(--ok)}.btn.d{background:var(--db)}.btn.s{background:var(--mu)}.btn.f{width:100%;margin-top:18px;padding:14px}
+.btn:disabled{opacity:.4;cursor:default}
+.ps{background:rgba(109,40,217,.08);border-left:4px solid var(--pr);padding:12px 14px;border-radius:8px;margin-bottom:14px;font-size:15px}
+.q{font-weight:600;margin-bottom:12px}
+.o{display:flex;gap:10px;align-items:flex-start;padding:11px 13px;border:2px solid var(--bd);border-radius:12px;margin-bottom:9px;cursor:pointer}
+.o:hover{border-color:var(--pr2)}.o.on{border-color:var(--pr);background:rgba(109,40,217,.1)}
+.o i{font-style:normal;font-weight:800;background:var(--no);color:#fff;border-radius:50%;min-width:26px;height:26px;display:grid;place-items:center;font-size:13px}
+.o.on i{background:var(--pr)}
+.bar{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap;margin-top:14px}
+.g5{display:grid;grid-template-columns:repeat(auto-fill,minmax(40px,1fr));gap:7px}
+.n{height:40px;border:0;border-radius:9px;font-weight:700;background:var(--no);color:#fff;cursor:pointer}
+.n.a{background:var(--ok)}.n.r{background:var(--db)}.n.cur{outline:3px solid var(--pr);outline-offset:2px}
+.lg{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--mu);margin-top:10px}.lg span:before{content:"";display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;background:var(--k)}
+.mo{position:fixed;inset:0;background:rgba(15,23,42,.7);display:grid;place-items:center;z-index:9;padding:16px}
+.mb{background:var(--card);border-radius:16px;padding:24px;max-width:430px;text-align:center}.mb .bar{justify-content:center}
+.sc{font-size:62px;font-weight:900;background:linear-gradient(120deg,var(--pr),var(--pr2));-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+.rv{border-left:5px solid var(--bad);padding:12px 14px;margin-bottom:12px;background:var(--card);border-radius:10px;font-size:15px}.rv.ok{border-color:var(--ok)}
+.rv small{display:block;color:var(--mu)}.hide{display:none}
+@media(min-width:800px){.ex{display:grid;grid-template-columns:1fr 280px;gap:14px;align-items:start}}
+@media print{.hd,.btn{display:none}}
+</style></head><body oncontextmenu="return false">
+<div class="hd"><b>📘 ASAS Ganjil – Bahasa Inggris</b><span class="tm hide" id="tm">90:00</span></div>
+<div class="w" id="app"></div>
+<script>
+const TOKEN="ASAS2026", MENIT=90;
+const P=[
+"<b>Plastic Bags Should Be Banned</b><br>Plastic bags should be banned. Firstly, plastic bags take hundreds of years to decompose, so they pile up in landfills. Secondly, they harm marine animals which often mistake them for food. Finally, producing them uses a lot of oil. Therefore, the government should ban plastic bags and encourage reusable bags.",
+"<b>Keep Our School Clean</b><br>Our school canteen is full of litter every day. Plastic wrappers and bottles are thrown carelessly. Waste attracts flies and makes us sick. Therefore, we should throw rubbish in the bin. We ought to bring our own bottles. Let’s keep our school clean together.",
+"Jl. Merdeka 12, Bandar Lampung<br>5 May 2026<br><br>The HR Manager<br>PT Maju Jaya<br><br>Dear Sir/Madam,<br>I am writing to apply for the position of Sales Assistant advertised in Lampung Post on 2 May 2026. I graduated from SMK Negeri 1 with excellent grades and have had a one-year internship in a shop. I am hardworking, honest, and able to work in a team. I have enclosed my CV and copies of my certificates. I would be grateful for an interview.<br><br>Yours faithfully,<br>Rina Putri",
+"<b>WE ARE HIRING!</b><br>CV Sinar Computer needs a <b>Computer Technician</b>.<br>Requirements: male/female, max. 28 years old; Diploma in IT; min. 1 year experience; able to work in a team; good communication.<br>Send your application letter and CV to hrd@sinar.com before 30 November 2026. Only shortlisted candidates will be contacted."];
+// [passage, soal, [jawaban benar, salah, salah, salah], pembahasan]
+const Q=[
+[0,"What is the thesis of the text?",["Plastic bags should be banned","Plastic bags are cheap","Marine animals eat fish","Oil is expensive"],"Thesis ada di kalimat pertama: “Plastic bags should be banned.”"],
+[0,"How many arguments does the writer give?",["Three","Two","Four","One"],"Ada tiga argumen: Firstly, Secondly, Finally."],
+[0,"“…so they pile up in landfills.” The word “pile up” is closest in meaning to …",["accumulate","disappear","dissolve","decrease"],"Pile up = accumulate (menumpuk)."],
+[0,"The last paragraph of the text is called …",["reiteration","thesis","argument","orientation"],"Kalimat “Therefore, the government should…” menegaskan kembali posisi penulis = reiteration."],
+[0,"“…they harm marine animals…” The word “they” refers to …",["plastic bags","landfills","oil","the government"],"“They” merujuk pada subjek kalimat sebelumnya, yaitu plastic bags."],
+[-1,"The social function of an analytical exposition text is …",["to persuade the reader that something is the case","to tell past events","to describe a person","to explain how something works"],"Analytical exposition bertujuan meyakinkan pembaca bahwa suatu hal itu benar/penting."],
+[-1,"The generic structure of an analytical exposition text is …",["thesis – arguments – reiteration","orientation – events – re-orientation","identification – description","goal – materials – steps"],"Struktur analytical exposition: thesis, arguments, reiteration."],
+[-1,"Which sentence is the most suitable thesis statement?",["Students should wear uniforms at school.","Yesterday I wore a uniform.","Uniforms are made of cotton.","My uniform is blue."],"Thesis berisi posisi/pendapat penulis tentang suatu isu."],
+[-1,"Online learning saves money. ____, it saves time because students need no travel.",["Moreover","However","Although","Because"],"Moreover menambahkan argumen yang searah."],
+[-1,"Which language feature is commonly used in analytical exposition?",["Simple present tense and thinking verbs (believe, think)","Past tense and action verbs only","Imperative sentences only","Direct speech only"],"Teks ini memakai simple present, relational/mental verbs, dan connectives."],
+[-1,"Exercise keeps our body healthy. ____, everyone should exercise regularly.",["Therefore","But","Unless","Meanwhile"],"Therefore menyatakan kesimpulan/penegasan."],
+[-1,"Which statement best supports the argument “Reading improves vocabulary”?",["Readers meet many new words in various contexts.","Books are sold in stores.","Reading takes place in a library.","Some books are thick."],"Pendukung argumen harus memberi alasan yang relevan."],
+[-1,"“Smoking is harmful. First, it causes lung cancer.” The word “First” is used to …",["introduce the first argument","end the text","give a recommendation","tell the orientation"],"First menandai argumen pertama."],
+[1,"The social function of the text is …",["to persuade the reader to do something","to entertain readers","to describe a place","to report an event"],"Hortatory exposition mengajak/membujuk pembaca melakukan sesuatu."],
+[1,"What problem is discussed in the text?",["The canteen is full of litter","Students are late","Teachers are absent","The bell is broken"],"Kalimat pertama menyebut kantin penuh sampah."],
+[1,"Which sentence is the recommendation?",["We should throw rubbish in the bin.","Waste attracts flies.","Our canteen is full of litter.","Wrappers are thrown carelessly."],"Recommendation memakai modal should/ought to."],
+[1,"The opposite of “carelessly” is …",["carefully","quickly","slowly","badly"],"Careless-ly >< careful-ly."],
+[1,"“We ought to bring our own bottles.” “Ought to” has the same meaning as …",["should","can","might","would"],"Ought to = should (sebaiknya)."],
+[-1,"The generic structure of a hortatory exposition text is …",["thesis – arguments – recommendation","orientation – complication – resolution","title – ingredients – steps","identification – description"],"Hortatory: thesis, arguments, recommendation."],
+[-1,"The main difference between hortatory and analytical exposition is that hortatory has …",["a recommendation","a thesis","arguments","a title"],"Hortatory diakhiri recommendation; analytical diakhiri reiteration."],
+[-1,"Which sentence is a recommendation?",["You should save water every day.","Water covers most of the Earth.","Water is needed by plants.","Many rivers are polluted."],"Recommendation berisi saran/ajakan dengan modal."],
+[-1,"We ____ protect our forests because they give us oxygen.",["must","did","were","has"],"Modal must + verb 1 menyatakan keharusan."],
+[-1,"“Let’s ____ our river clean.” The correct word is …",["keep","keeps","kept","keeping"],"Let’s + bare infinitive."],
+[-1,"Everyone ____ save electricity. It is very important.",["ought to","ought","is ought","ought to be"],"Ought to + verb 1."],
+[-1,"Which expression is used to give a suggestion?",["I suggest that we recycle waste.","I was at the park.","She has a dog.","They went home."],"I suggest that… dipakai untuk memberi saran."],
+[2,"The purpose of Rina’s letter is …",["to apply for a job","to complain about a product","to invite a friend","to thank a teacher"],"“I am writing to apply for the position…”"],
+[2,"Where did Rina find the job vacancy?",["In Lampung Post","On the radio","On television","In a magazine"],"“advertised in Lampung Post”."],
+[2,"Which is TRUE about Rina?",["She has internship experience.","She is a university lecturer.","She has no skills.","She works at PT Maju Jaya."],"Ia memiliki pengalaman magang satu tahun."],
+[2,"“I have enclosed my CV…” The word “enclosed” means …",["attached","closed","lost","forgotten"],"Enclosed = attached (dilampirkan)."],
+[2,"The closing used in the letter is …",["Yours faithfully","Best friends","See you","Good luck"],"Yours faithfully dipakai bila nama penerima tidak diketahui."],
+[2,"Which position does Rina apply for?",["Sales Assistant","Computer Technician","HR Manager","Teacher"],"Tercantum pada paragraf pembuka."],
+[2,"“I would be grateful for an interview.” This sentence expresses …",["a polite request","a refusal","a complaint","an apology"],"Bentuk permintaan sopan agar dipanggil wawancara."],
+[-1,"If you do not know the name of the receiver, the salutation is …",["Dear Sir/Madam","Hi Buddy","Hello Friend","Dear Mom"],"Salutation formal: Dear Sir/Madam."],
+[-1,"Which is NOT part of an application letter?",["The company’s annual profit","Date","Salutation","Closing"],"Laba perusahaan bukan bagian surat lamaran."],
+[-1,"Which sentence is the best opening of an application letter?",["I am writing to apply for the position of Cashier.","Hey, I need money.","Please give me a job now.","I like your office."],"Pembuka formal menyebut posisi yang dilamar."],
+[-1,"“Yours sincerely” is used when …",["we know the name of the receiver","we write to a friend","we do not know the receiver","we complain"],"Yours sincerely dipakai bila nama penerima diketahui."],
+[-1,"Which document is usually enclosed in an application letter?",["Curriculum Vitae","Shopping list","Photo album","Menu"],"Lampiran umum: CV, ijazah, sertifikat."],
+[3,"What position is offered in the advertisement?",["Computer Technician","Sales Assistant","HR Manager","Driver"],"Tertulis tebal pada iklan."],
+[3,"What is the maximum age of the applicants?",["28 years old","18 years old","30 years old","35 years old"],"“max. 28 years old”."],
+[3,"Which is a requirement of the job?",["Minimum one year of experience","Female only","Master’s degree","Fluent in French"],"Tertulis “min. 1 year experience”."],
+[3,"When is the deadline of the application?",["30 November 2026","1 November 2026","30 December 2026","1 January 2027"],"“before 30 November 2026”."],
+[3,"How should applicants send their application?",["By email","By phone","By post only","In person only"],"Dikirim ke hrd@sinar.com."],
+[3,"“Only shortlisted candidates will be contacted.” “Shortlisted” means …",["selected","rejected","late","unknown"],"Shortlisted = terpilih dalam daftar pendek."],
+[3,"In the text, “min.” stands for …",["minimum","minute","minus","mineral"],"Min. = minimum."],
+[-1,"The social function of a job vacancy is …",["to inform people about available jobs","to tell a funny story","to describe a famous person","to explain a process"],"Job vacancy menginformasikan lowongan pekerjaan."],
+[-1,"Which information is NOT usually found in a job vacancy?",["The applicant’s signature","Job title","Requirements","How to apply"],"Tanda tangan pelamar ada di surat lamaran, bukan iklan."],
+[-1,"“Applicants should have good interpersonal skills.” It means they must be good at …",["dealing with people","using computers","cooking food","driving cars"],"Interpersonal skills = kemampuan berinteraksi dengan orang lain."],
+[-1,"“Fluent in English” means …",["able to speak English well","learning English","afraid of English","never using English"],"Fluent = lancar."],
+[-1,"“Walk-in interview” means the interview …",["needs no appointment","is by phone","is cancelled","is only for managers"],"Walk-in = datang langsung tanpa janji."],
+[-1,"“We are looking for a cashier.” It is similar to …",["We need a cashier.","We sell cashiers.","We are cashiers.","We lost a cashier."],"Looking for = need/seek."]
+];
+const $=s=>document.querySelector(s),app=$("#app");
+const sh=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+let S={},cur=0,ans=[],dbt=[],items=[],left=0,iv,warned=false,lastV=0,done=false;
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function login(){app.innerHTML=`<div class="c" style="max-width:520px;margin:20px auto"><h1>Selamat Datang 👋</h1><p style="color:var(--mu);margin:0">Ujian Akhir Semester Ganjil · Bahasa Inggris<br>${Q.length} soal pilihan ganda · ${MENIT} menit</p>
+<label>Nama Siswa</label><input id="f1"><label>Kelas</label><input id="f2" placeholder="contoh: XII IPA 1"><label>Nomor Peserta Didik</label><input id="f3"><label>Asal Sekolah</label><input id="f4" value="SMA Negeri 1 Penengahan"><label>Token Ujian</label><input id="f5" placeholder="Token dari pengawas" autocomplete="off">
+<p id="er" style="color:var(--bad);margin:10px 0 0;font-size:14px"></p>
+<div class="ps" style="margin-top:12px;font-size:13px"><b>Tata tertib:</b> ujian berlangsung layar penuh. Dilarang berpindah tab/jendela. Pelanggaran pertama diberi peringatan, pelanggaran kedua mengakhiri ujian otomatis.</div>
+<button class="btn f" onclick="start()">Mulai Ujian</button></div>`}
+function start(){const v=[1,2,3,4,5].map(i=>$("#f"+i).value.trim());
+ if(v.slice(0,4).some(x=>!x))return $("#er").textContent="Lengkapi semua data.";
+ if(v[4].toUpperCase()!==TOKEN)return $("#er").textContent="Token salah.";
+ S={nama:v[0],kelas:v[1],nopd:v[2],sekolah:v[3]};
+ items=sh(Q.map(q=>{const o=sh([0,1,2,3]);return{p:q[0],q:q[1],o:o.map(i=>q[2][i]),k:o.indexOf(0),e:q[3]}}));
+ ans=items.map(()=>-1);dbt=items.map(()=>false);cur=0;left=MENIT*60;warned=false;done=false;
+ document.documentElement.requestFullscreen?.().catch(()=>{});
+ $("#tm").classList.remove("hide");iv=setInterval(tick,1000);tick();render()}
+function tick(){if(left--<=0)return finish(true);const m=Math.floor(left/60),s=left%60,t=$("#tm");t.textContent=String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");t.classList.toggle("lo",left<300)}
+function render(){const it=items[cur],L="ABCD";
+ app.innerHTML=`<div class="ex"><div class="c"><div style="color:var(--mu);font-size:14px;margin-bottom:8px">Soal ${cur+1} dari ${items.length}</div>
+ ${it.p>=0?`<div class="ps">${P[it.p]}</div>`:""}<div class="q">${it.q}</div>
+ ${it.o.map((o,i)=>`<div class="o ${ans[cur]===i?"on":""}" onclick="pick(${i})"><i>${L[i]}</i><span>${o}</span></div>`).join("")}
+ <div class="bar"><button class="btn s" onclick="go(${cur-1})" ${cur?"":"disabled"}>◀ Sebelumnya</button>
+ <button class="btn d" onclick="dbt[cur]=!dbt[cur];render()">${dbt[cur]?"✓ Ragu-ragu":"Ragu-ragu"}</button>
+ ${cur<items.length-1?`<button class="btn" onclick="go(${cur+1})">Selanjutnya ▶</button>`:`<button class="btn g" onclick="ask()">Selesai ✔</button>`}</div></div>
+ <div class="c"><b>Navigasi Soal</b><div class="g5" style="margin-top:10px">${items.map((_,i)=>`<button class="n ${dbt[i]?"r":ans[i]>=0?"a":""} ${i===cur?"cur":""}" onclick="go(${i})">${i+1}</button>`).join("")}</div>
+ <div class="lg"><span style="--k:var(--ok)">Dijawab</span><span style="--k:var(--db)">Ragu-ragu</span><span style="--k:var(--no)">Belum</span></div>
+ <button class="btn g f" onclick="ask()">Selesai Ujian</button></div></div>`}
+const pick=i=>{ans[cur]=i;render()},go=i=>{cur=i;render()};
+function modal(h,b){const m=document.createElement("div");m.className="mo";m.innerHTML=`<div class="mb">${h}<div class="bar">${b.map((x,i)=>`<button class="btn ${x[1]}" data-i="${i}">${x[0]}</button>`).join("")}</div></div>`;
+ m.onclick=e=>{const i=e.target.dataset.i;if(i!==undefined){m.remove();b[i][2]?.()}};document.body.appendChild(m)}
+function ask(){const k=ans.filter(a=>a<0).length,r=dbt.filter(Boolean).length;
+ modal(`<h2>Akhiri ujian?</h2><p>Belum dijawab: <b>${k}</b> · Ragu-ragu: <b>${r}</b></p>`,[["Kembali","s"],["Ya, Selesai","g",()=>finish()]])}
+function viol(){if(done||!items.length)return;const n=Date.now();if(n-lastV<1500)return;lastV=n;
+ if(!warned){warned=true;modal(`<h2>⚠️ Peringatan Kecurangan</h2><p>Terdeteksi Anda meninggalkan halaman ujian. Ini peringatan <b>satu-satunya</b>. Jika terulang, ujian diakhiri otomatis.</p>`,[["Saya Mengerti","d",()=>document.documentElement.requestFullscreen?.().catch(()=>{})]])}
+ else finish(false,true)}
+document.addEventListener("visibilitychange",()=>document.hidden&&viol());
+window.addEventListener("blur",viol);
+document.addEventListener("fullscreenchange",()=>!document.fullscreenElement&&viol());
+["copy","cut","paste","dragstart"].forEach(e=>document.addEventListener(e,x=>{if(!x.target.matches?.("input"))x.preventDefault()}));
+document.addEventListener("keydown",e=>{if(e.key==="F12"||e.key==="PrintScreen"||(e.ctrlKey&&["c","u","s","p"].includes(e.key.toLowerCase()))||(e.ctrlKey&&e.shiftKey))e.preventDefault()});
+window.addEventListener("beforeunload",e=>{if(items.length&&!done){e.preventDefault();e.returnValue=""}});
+function finish(timeout,cheat){if(done)return;done=true;clearInterval(iv);document.querySelectorAll(".mo").forEach(m=>m.remove());
+ document.fullscreenElement&&document.exitFullscreen?.();$("#tm").classList.add("hide");
+ const ok=items.filter((it,i)=>ans[i]===it.k).length,sc=(ok/items.length*100).toFixed(1).replace(/\.0$/,""),L="ABCD";
+ const note=cheat?"Ujian diakhiri otomatis karena pelanggaran kedua.":timeout?"Waktu habis, jawaban dikirim otomatis.":"";
+ app.innerHTML=`<div class="c" style="text-align:center"><h2>Hasil Ujian</h2>${note?`<p style="color:var(--bad)">${note}</p>`:""}<div class="sc">${sc}</div><p style="margin:0;color:var(--mu)">Benar ${ok} · Salah ${ans.filter((a,i)=>a>=0&&a!==items[i].k).length} · Kosong ${ans.filter(a=>a<0).length} dari ${items.length}</p>
+ <p><b>${esc(S.nama)}</b><br>Kelas ${esc(S.kelas)} · No. Peserta ${esc(S.nopd)}<br>${esc(S.sekolah)}</p><button class="btn" onclick="print()">🖨 Cetak</button></div>
+ <h2 style="margin:16px 0 10px">Jawaban &amp; Pembahasan</h2>`+items.map((it,i)=>{const a=ans[i],g=a===it.k;
+ return`<div class="rv ${g?"ok":""}"><b>${i+1}.</b> ${it.p>=0?`<small>(Lihat teks: ${["Analytical Exposition","Hortatory Exposition","Application Letter","Job Vacancy"][it.p]})</small>`:""}${it.q}
+ <small>Jawaban Anda: ${a<0?"— (kosong)":L[a]+". "+it.o[a]} ${g?"✅":"❌"}</small><small>Jawaban benar: <b>${L[it.k]}. ${it.o[it.k]}</b></small><small>💡 ${it.e}</small></div>`}).join("")}
+login();
+</script></body></html>
